@@ -25,7 +25,7 @@ color with `M-x customize-group RET pinky RET`.
 pinky-mode works with window-number to switch between windows in
 the same frame. Just tap a number key to go to any window.
 
-# Installation:
+## Installation:
 
 Once the pinky-mode package is installed, add this to your .emacs:
 
@@ -50,3 +50,31 @@ normal key bindings for navigation.
 ```elisp
 (pinky-unbind-normal-keys)
 ```
+
+## List of key bindings
+
+| Key | Function |
+| --- |:--------:|
+| ` ` | set-mark-command |
+| `,` | beginning-of-buffer |
+| `.` | end-of-buffer |
+| `a` | move-beginning-of-line |
+| `b` | backward-char |
+| `c` | switch-to-buffer |
+| `d` | delete-char |
+| `e` | move-end-of-line |
+| `f` | forward-char |
+| `g` | goto-line |
+| `i` | pinky-mode-deactivate |
+| `k` | kill-line |
+| `m` | scroll-down-command |
+| `n` | next-line |
+| `o` | open-line |
+| `p` | previous-line |
+| `r` | isearch-backward |
+| `s` | isearch-forward |
+| `u` | undo |
+| `v` | scroll-up-command |
+| `w` | kill-ring-save |
+| `x` | exchange-point-and-mark |
+| `y` | yank |
