@@ -78,3 +78,4 @@ normal key bindings for navigation.
 | `w` | kill-ring-save |
 | `x` | exchange-point-and-mark |
 | `y` | yank |
+| `0`-`9` | window-number-select |
